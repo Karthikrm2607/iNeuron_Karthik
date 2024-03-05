@@ -1,2 +1,2 @@
 # iNeuron_Karthik
-Assignments and Internship
+FullStack Masters Course
