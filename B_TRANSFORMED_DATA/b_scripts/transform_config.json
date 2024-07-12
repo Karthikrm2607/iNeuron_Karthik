@@ -1,0 +1,16 @@
+{
+    "read_raw_file" : "E:\\0_BIG DATA\\EDWA_PROJECT\\A_RAW_DATA\\A_HISTORICAL_DATA\\a_data\\",
+    "file_name" : [
+                    "country",
+                    "city",
+                    "address",
+                    "staff",
+                    "postpaid_plan",
+                    "prepaid_plan",
+                    "complaint",
+                    "subscriber"
+                ],
+    "subscriber_details_save_path" : "E:\\0_BIG DATA\\EDWA_PROJECT\\C_FINAL_DATA\\SUBSCRIBER_DETAILS_DATA\\",
+    "subscriber_details_file_name" : "subscriber_details"
+
+}

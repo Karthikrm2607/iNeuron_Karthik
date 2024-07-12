@@ -1,0 +1,6 @@
+prepaid_plan_id,prepaid_plan_description,prepaid_plan_amount
+PR_1,unlimited call 1.5GB/Day 28 days,199
+PR_2,unlimited call 2GB/Day,299
+PR_3,unlimited call 1.5GB/Day 84 Days,399
+PR_4,unlimited call 3GB/Day 28 Days,499
+PR_5,unlimited call 4GB/Day 56 Days,749
