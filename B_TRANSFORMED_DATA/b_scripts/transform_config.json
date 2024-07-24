@@ -1,5 +1,8 @@
 {
-    "read_raw_file" : "E:\\0_BIG DATA\\EDWA_PROJECT\\A_RAW_DATA\\A_HISTORICAL_DATA\\a_data\\",
+    "read_raw_file" : "E:\\0_BIG DATA\\PROJECTS\\iNeuron_Karthik\\A_RAW_DATA\\A_HISTORICAL_DATA\\a_data",
+    "delta_raw_tables_path" : "E:\\0_BIG DATA\\PROJECTS\\iNeuron_Karthik\\A_RAW_DATA\\B_DELTA_DATA\\",
+    "delta_subscriber_details_file_name" : "delta_subscriber_details",
+    "delta_subscriber_details_save_path_staging" : "E:\\0_BIG DATA\\PROJECTS\\iNeuron_Karthik\\A_RAW_DATA\\B_DELTA_DATA",
     "file_name" : [
                     "country",
                     "city",
@@ -10,7 +13,9 @@
                     "complaint",
                     "subscriber"
                 ],
-    "subscriber_details_save_path" : "E:\\0_BIG DATA\\EDWA_PROJECT\\C_FINAL_DATA\\SUBSCRIBER_DETAILS_DATA\\",
+                
+    "subscriber_details_save_path_final" : "E:\\0_BIG DATA\\PROJECTS\\iNeuron_Karthik\\C_FINAL_DATA\\SUBSCRIBER_DETAILS_DATA\\",
     "subscriber_details_file_name" : "subscriber_details"
+    
 
 }
