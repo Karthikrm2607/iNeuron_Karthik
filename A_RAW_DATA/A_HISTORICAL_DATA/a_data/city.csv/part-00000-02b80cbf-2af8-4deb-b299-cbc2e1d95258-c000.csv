@@ -1,0 +1,601 @@
+city_id,city_name,country_id
+CT_1,A Corua,CN_87
+CT_10,Akishima,CN_50
+CT_100,Cam Ranh,CN_105
+CT_101,Cape Coral,CN_103
+CT_102,Caracas,CN_104
+CT_103,Carmen,CN_60
+CT_104,Cavite,CN_75
+CT_105,Cayenne,CN_35
+CT_106,Celaya,CN_60
+CT_107,Chandrapur,CN_44
+CT_108,Changhwa,CN_92
+CT_109,Changzhou,CN_23
+CT_11,Akron,CN_103
+CT_110,Chapra,CN_44
+CT_111,Charlotte Amalie,CN_106
+CT_112,Chatsworth,CN_85
+CT_113,Cheju,CN_86
+CT_114,Chiayi,CN_92
+CT_115,Chisinau,CN_61
+CT_116,Chungho,CN_92
+CT_117,Cianjur,CN_45
+CT_118,Ciomas,CN_45
+CT_119,Ciparay,CN_45
+CT_12,al-Ayn,CN_101
+CT_120,Citrus Heights,CN_103
+CT_121,Citt del Vaticano,CN_41
+CT_122,Ciudad del Este,CN_73
+CT_123,Clarksville,CN_103
+CT_124,Coacalco de Berriozbal,CN_60
+CT_125,Coatzacoalcos,CN_60
+CT_126,Compton,CN_103
+CT_127,Coquimbo,CN_22
+CT_128,Crdoba,CN_6
+CT_129,Cuauhtmoc,CN_60
+CT_13,al-Hawiya,CN_82
+CT_130,Cuautla,CN_60
+CT_131,Cuernavaca,CN_60
+CT_132,Cuman,CN_104
+CT_133,Czestochowa,CN_76
+CT_134,Dadu,CN_72
+CT_135,Dallas,CN_103
+CT_136,Datong,CN_23
+CT_137,Daugavpils,CN_54
+CT_138,Davao,CN_75
+CT_139,Daxian,CN_23
+CT_14,al-Manama,CN_11
+CT_140,Dayton,CN_103
+CT_141,Deba Habe,CN_69
+CT_142,Denizli,CN_97
+CT_143,Dhaka,CN_12
+CT_144,Dhule,CN_44
+CT_145,Dongying,CN_23
+CT_146,Donostia-San Sebastin,CN_87
+CT_147,Dos Quebradas,CN_24
+CT_148,Duisburg,CN_38
+CT_149,Dundee,CN_102
+CT_15,al-Qadarif,CN_89
+CT_150,Dzerzinsk,CN_80
+CT_151,Ede,CN_67
+CT_152,Effon-Alaiye,CN_69
+CT_153,El Alto,CN_14
+CT_154,El Fuerte,CN_60
+CT_155,El Monte,CN_103
+CT_156,Elista,CN_80
+CT_157,Emeishan,CN_23
+CT_158,Emmen,CN_67
+CT_159,Enshi,CN_23
+CT_16,al-Qatif,CN_82
+CT_160,Erlangen,CN_38
+CT_161,Escobar,CN_6
+CT_162,Esfahan,CN_46
+CT_163,Eskisehir,CN_97
+CT_164,Etawah,CN_44
+CT_165,Ezeiza,CN_6
+CT_166,Ezhou,CN_23
+CT_167,Faaa,CN_36
+CT_168,Fengshan,CN_92
+CT_169,Firozabad,CN_44
+CT_17,Alessandria,CN_49
+CT_170,Florencia,CN_24
+CT_171,Fontana,CN_103
+CT_172,Fukuyama,CN_50
+CT_173,Funafuti,CN_99
+CT_174,Fuyu,CN_23
+CT_175,Fuzhou,CN_23
+CT_176,Gandhinagar,CN_44
+CT_177,Garden Grove,CN_103
+CT_178,Garland,CN_103
+CT_179,Gatineau,CN_20
+CT_18,Allappuzha,CN_44
+CT_180,Gaziantep,CN_97
+CT_181,Gijn,CN_87
+CT_182,Gingoog,CN_75
+CT_183,Goinia,CN_15
+CT_184,Gorontalo,CN_45
+CT_185,Grand Prairie,CN_103
+CT_186,Graz,CN_9
+CT_187,Greensboro,CN_103
+CT_188,Guadalajara,CN_60
+CT_189,Guaruj,CN_15
+CT_19,Allende,CN_60
+CT_190,guas Lindas de Gois,CN_15
+CT_191,Gulbarga,CN_44
+CT_192,Hagonoy,CN_75
+CT_193,Haining,CN_23
+CT_194,Haiphong,CN_105
+CT_195,Haldia,CN_44
+CT_196,Halifax,CN_20
+CT_197,Halisahar,CN_44
+CT_198,Halle/Saale,CN_38
+CT_199,Hami,CN_23
+CT_2,Abha,CN_82
+CT_20,Almirante Brown,CN_6
+CT_200,Hamilton,CN_68
+CT_201,Hanoi,CN_105
+CT_202,Hidalgo,CN_60
+CT_203,Higashiosaka,CN_50
+CT_204,Hino,CN_50
+CT_205,Hiroshima,CN_50
+CT_206,Hodeida,CN_107
+CT_207,Hohhot,CN_23
+CT_208,Hoshiarpur,CN_44
+CT_209,Hsichuh,CN_92
+CT_21,Alvorada,CN_15
+CT_210,Huaian,CN_23
+CT_211,Hubli-Dharwad,CN_44
+CT_212,Huejutla de Reyes,CN_60
+CT_213,Huixquilucan,CN_60
+CT_214,Hunuco,CN_74
+CT_215,Ibirit,CN_15
+CT_216,Idfu,CN_29
+CT_217,Ife,CN_69
+CT_218,Ikerre,CN_69
+CT_219,Iligan,CN_75
+CT_22,Ambattur,CN_44
+CT_220,Ilorin,CN_69
+CT_221,Imus,CN_75
+CT_222,Inegl,CN_97
+CT_223,Ipoh,CN_59
+CT_224,Isesaki,CN_50
+CT_225,Ivanovo,CN_80
+CT_226,Iwaki,CN_50
+CT_227,Iwakuni,CN_50
+CT_228,Iwatsuki,CN_50
+CT_229,Izumisano,CN_50
+CT_23,Amersfoort,CN_67
+CT_230,Jaffna,CN_88
+CT_231,Jaipur,CN_44
+CT_232,Jakarta,CN_45
+CT_233,Jalib al-Shuyukh,CN_53
+CT_234,Jamalpur,CN_12
+CT_235,Jaroslavl,CN_80
+CT_236,Jastrzebie-Zdrj,CN_76
+CT_237,Jedda,CN_82
+CT_238,Jelets,CN_80
+CT_239,Jhansi,CN_44
+CT_24,Amroha,CN_44
+CT_240,Jinchang,CN_23
+CT_241,Jining,CN_23
+CT_242,Jinzhou,CN_23
+CT_243,Jodhpur,CN_44
+CT_244,Johannesburg,CN_85
+CT_245,Joliet,CN_103
+CT_246,Jos Azueta,CN_60
+CT_247,Juazeiro do Norte,CN_15
+CT_248,Juiz de Fora,CN_15
+CT_249,Junan,CN_23
+CT_25,Angra dos Reis,CN_15
+CT_250,Jurez,CN_60
+CT_251,Kabul,CN_1
+CT_252,Kaduna,CN_69
+CT_253,Kakamigahara,CN_50
+CT_254,Kaliningrad,CN_80
+CT_255,Kalisz,CN_76
+CT_256,Kamakura,CN_50
+CT_257,Kamarhati,CN_44
+CT_258,Kamjanets-Podilskyi,CN_100
+CT_259,Kamyin,CN_80
+CT_26,Anpolis,CN_15
+CT_260,Kanazawa,CN_50
+CT_261,Kanchrapara,CN_44
+CT_262,Kansas City,CN_103
+CT_263,Karnal,CN_44
+CT_264,Katihar,CN_44
+CT_265,Kermanshah,CN_46
+CT_266,Kilis,CN_97
+CT_267,Kimberley,CN_85
+CT_268,Kimchon,CN_86
+CT_269,Kingstown,CN_81
+CT_27,Antofagasta,CN_22
+CT_270,Kirovo-Tepetsk,CN_80
+CT_271,Kisumu,CN_52
+CT_272,Kitwe,CN_109
+CT_273,Klerksdorp,CN_85
+CT_274,Kolpino,CN_80
+CT_275,Konotop,CN_100
+CT_276,Koriyama,CN_50
+CT_277,Korla,CN_23
+CT_278,Korolev,CN_80
+CT_279,Kowloon and New Kowloon,CN_42
+CT_28,Aparecida de Goinia,CN_15
+CT_280,Kragujevac,CN_108
+CT_281,Ktahya,CN_97
+CT_282,Kuching,CN_59
+CT_283,Kumbakonam,CN_44
+CT_284,Kurashiki,CN_50
+CT_285,Kurgan,CN_80
+CT_286,Kursk,CN_80
+CT_287,Kuwana,CN_50
+CT_288,La Paz,CN_60
+CT_289,La Plata,CN_6
+CT_29,Apeldoorn,CN_67
+CT_290,La Romana,CN_27
+CT_291,Laiwu,CN_23
+CT_292,Lancaster,CN_103
+CT_293,Laohekou,CN_23
+CT_294,Lapu-Lapu,CN_75
+CT_295,Laredo,CN_103
+CT_296,Lausanne,CN_91
+CT_297,Le Mans,CN_34
+CT_298,Lengshuijiang,CN_23
+CT_299,Leshan,CN_23
+CT_3,Abu Dhabi,CN_101
+CT_30,Araatuba,CN_15
+CT_300,Lethbridge,CN_20
+CT_301,Lhokseumawe,CN_45
+CT_302,Liaocheng,CN_23
+CT_303,Liepaja,CN_54
+CT_304,Lilongwe,CN_58
+CT_305,Lima,CN_74
+CT_306,Lincoln,CN_103
+CT_307,Linz,CN_9
+CT_308,Lipetsk,CN_80
+CT_309,Livorno,CN_49
+CT_31,Arak,CN_46
+CT_310,Ljubertsy,CN_80
+CT_311,Loja,CN_28
+CT_312,London,CN_102
+CT_313,London,CN_20
+CT_314,Lublin,CN_76
+CT_315,Lubumbashi,CN_25
+CT_316,Lungtan,CN_92
+CT_317,Luzinia,CN_15
+CT_318,Madiun,CN_45
+CT_319,Mahajanga,CN_57
+CT_32,Arecibo,CN_77
+CT_320,Maikop,CN_80
+CT_321,Malm,CN_90
+CT_322,Manchester,CN_103
+CT_323,Mandaluyong,CN_75
+CT_324,Mandi Bahauddin,CN_72
+CT_325,Mannheim,CN_38
+CT_326,Maracabo,CN_104
+CT_327,Mardan,CN_72
+CT_328,Maring,CN_15
+CT_329,Masqat,CN_71
+CT_33,Arlington,CN_103
+CT_330,Matamoros,CN_60
+CT_331,Matsue,CN_50
+CT_332,Meixian,CN_23
+CT_333,Memphis,CN_103
+CT_334,Merlo,CN_6
+CT_335,Mexicali,CN_60
+CT_336,Miraj,CN_44
+CT_337,Mit Ghamr,CN_29
+CT_338,Miyakonojo,CN_50
+CT_339,Mogiljov,CN_13
+CT_34,Ashdod,CN_48
+CT_340,Molodetno,CN_13
+CT_341,Monclova,CN_60
+CT_342,Monywa,CN_64
+CT_343,Moscow,CN_80
+CT_344,Mosul,CN_47
+CT_345,Mukateve,CN_100
+CT_346,Munger,CN_44
+CT_347,Mwanza,CN_93
+CT_348,Mwene-Ditu,CN_25
+CT_349,Myingyan,CN_64
+CT_35,Ashgabat,CN_98
+CT_350,Mysore,CN_44
+CT_351,Naala-Porto,CN_63
+CT_352,Nabereznyje Telny,CN_80
+CT_353,Nador,CN_62
+CT_354,Nagaon,CN_44
+CT_355,Nagareyama,CN_50
+CT_356,Najafabad,CN_46
+CT_357,Naju,CN_86
+CT_358,Nakhon Sawan,CN_94
+CT_359,Nam Dinh,CN_105
+CT_36,Ashqelon,CN_48
+CT_360,Namibe,CN_4
+CT_361,Nantou,CN_92
+CT_362,Nanyang,CN_23
+CT_363,NDjamna,CN_21
+CT_364,Newcastle,CN_85
+CT_365,Nezahualcyotl,CN_60
+CT_366,Nha Trang,CN_105
+CT_367,Niznekamsk,CN_80
+CT_368,Novi Sad,CN_108
+CT_369,Novoterkassk,CN_80
+CT_37,Asuncin,CN_73
+CT_370,Nukualofa,CN_95
+CT_371,Nuuk,CN_40
+CT_372,Nyeri,CN_52
+CT_373,Ocumare del Tuy,CN_104
+CT_374,Ogbomosho,CN_69
+CT_375,Okara,CN_72
+CT_376,Okayama,CN_50
+CT_377,Okinawa,CN_50
+CT_378,Olomouc,CN_26
+CT_379,Omdurman,CN_89
+CT_38,Athenai,CN_39
+CT_380,Omiya,CN_50
+CT_381,Ondo,CN_69
+CT_382,Onomichi,CN_50
+CT_383,Oshawa,CN_20
+CT_384,Osmaniye,CN_97
+CT_385,ostka,CN_100
+CT_386,Otsu,CN_50
+CT_387,Oulu,CN_33
+CT_388,Ourense,CN_87
+CT_389,Owo,CN_69
+CT_39,Atinsk,CN_80
+CT_390,Oyo,CN_69
+CT_391,Ozamis,CN_75
+CT_392,Paarl,CN_85
+CT_393,Pachuca de Soto,CN_60
+CT_394,Pak Kret,CN_94
+CT_395,Palghat,CN_44
+CT_396,Pangkal Pinang,CN_45
+CT_397,Papeete,CN_36
+CT_398,Parbhani,CN_44
+CT_399,Pathankot,CN_44
+CT_4,Acua,CN_60
+CT_40,Atlixco,CN_60
+CT_400,Patiala,CN_44
+CT_401,Patras,CN_39
+CT_402,Pavlodar,CN_51
+CT_403,Pemalang,CN_45
+CT_404,Peoria,CN_103
+CT_405,Pereira,CN_24
+CT_406,Phnom Penh,CN_18
+CT_407,Pingxiang,CN_23
+CT_408,Pjatigorsk,CN_80
+CT_409,Plock,CN_76
+CT_41,Augusta-Richmond County,CN_103
+CT_410,Po,CN_15
+CT_411,Ponce,CN_77
+CT_412,Pontianak,CN_45
+CT_413,Poos de Caldas,CN_15
+CT_414,Portoviejo,CN_28
+CT_415,Probolinggo,CN_45
+CT_416,Pudukkottai,CN_44
+CT_417,Pune,CN_44
+CT_418,Purnea (Purnia),CN_44
+CT_419,Purwakarta,CN_45
+CT_42,Aurora,CN_103
+CT_420,Pyongyang,CN_70
+CT_421,Qalyub,CN_29
+CT_422,Qinhuangdao,CN_23
+CT_423,Qomsheh,CN_46
+CT_424,Quilmes,CN_6
+CT_425,Rae Bareli,CN_44
+CT_426,Rajkot,CN_44
+CT_427,Rampur,CN_44
+CT_428,Rancagua,CN_22
+CT_429,Ranchi,CN_44
+CT_43,Avellaneda,CN_6
+CT_430,Richmond Hill,CN_20
+CT_431,Rio Claro,CN_15
+CT_432,Rizhao,CN_23
+CT_433,Roanoke,CN_103
+CT_434,Robamba,CN_28
+CT_435,Rockford,CN_103
+CT_436,Ruse,CN_17
+CT_437,Rustenburg,CN_85
+CT_438,s-Hertogenbosch,CN_67
+CT_439,Saarbrcken,CN_38
+CT_44,Bag,CN_15
+CT_440,Sagamihara,CN_50
+CT_441,Saint Louis,CN_103
+CT_442,Saint-Denis,CN_79
+CT_443,Sal,CN_62
+CT_444,Salala,CN_71
+CT_445,Salamanca,CN_60
+CT_446,Salinas,CN_103
+CT_447,Salzburg,CN_9
+CT_448,Sambhal,CN_44
+CT_449,San Bernardino,CN_103
+CT_45,Baha Blanca,CN_6
+CT_450,San Felipe de Puerto Plata,CN_27
+CT_451,San Felipe del Progreso,CN_60
+CT_452,San Juan Bautista Tuxtepec,CN_60
+CT_453,San Lorenzo,CN_73
+CT_454,San Miguel de Tucumn,CN_6
+CT_455,Sanaa,CN_107
+CT_456,Santa Brbara dOeste,CN_15
+CT_457,Santa F,CN_6
+CT_458,Santa Rosa,CN_75
+CT_459,Santiago de Compostela,CN_87
+CT_46,Baicheng,CN_23
+CT_460,Santiago de los Caballeros,CN_27
+CT_461,Santo Andr,CN_15
+CT_462,Sanya,CN_23
+CT_463,Sasebo,CN_50
+CT_464,Satna,CN_44
+CT_465,Sawhaj,CN_29
+CT_466,Serpuhov,CN_80
+CT_467,Shahr-e Kord,CN_46
+CT_468,Shanwei,CN_23
+CT_469,Shaoguan,CN_23
+CT_47,Baiyin,CN_23
+CT_470,Sharja,CN_101
+CT_471,Shenzhen,CN_23
+CT_472,Shikarpur,CN_72
+CT_473,Shimoga,CN_44
+CT_474,Shimonoseki,CN_50
+CT_475,Shivapuri,CN_44
+CT_476,Shubra al-Khayma,CN_29
+CT_477,Siegen,CN_38
+CT_478,Siliguri,CN_44
+CT_479,Simferopol,CN_100
+CT_48,Baku,CN_10
+CT_480,Sincelejo,CN_24
+CT_481,Sirjan,CN_46
+CT_482,Sivas,CN_97
+CT_483,Skikda,CN_2
+CT_484,Smolensk,CN_80
+CT_485,So Bernardo do Campo,CN_15
+CT_486,So Leopoldo,CN_15
+CT_487,Sogamoso,CN_24
+CT_488,Sokoto,CN_69
+CT_489,Songkhla,CN_94
+CT_49,Balaiha,CN_80
+CT_490,Sorocaba,CN_15
+CT_491,Soshanguve,CN_85
+CT_492,Sousse,CN_96
+CT_493,South Hill,CN_5
+CT_494,Southampton,CN_102
+CT_495,Southend-on-Sea,CN_102
+CT_496,Southport,CN_102
+CT_497,Springs,CN_85
+CT_498,Stara Zagora,CN_17
+CT_499,Sterling Heights,CN_103
+CT_5,Adana,CN_97
+CT_50,Balikesir,CN_97
+CT_500,Stockport,CN_102
+CT_501,Sucre,CN_14
+CT_502,Suihua,CN_23
+CT_503,Sullana,CN_74
+CT_504,Sultanbeyli,CN_97
+CT_505,Sumqayit,CN_10
+CT_506,Sumy,CN_100
+CT_507,Sungai Petani,CN_59
+CT_508,Sunnyvale,CN_103
+CT_509,Surakarta,CN_45
+CT_51,Balurghat,CN_44
+CT_510,Syktyvkar,CN_80
+CT_511,Syrakusa,CN_49
+CT_512,Szkesfehrvr,CN_43
+CT_513,Tabora,CN_93
+CT_514,Tabriz,CN_46
+CT_515,Tabuk,CN_82
+CT_516,Tafuna,CN_3
+CT_517,Taguig,CN_75
+CT_518,Taizz,CN_107
+CT_519,Talavera,CN_75
+CT_52,Bamenda,CN_19
+CT_520,Tallahassee,CN_103
+CT_521,Tama,CN_50
+CT_522,Tambaram,CN_44
+CT_523,Tanauan,CN_75
+CT_524,Tandil,CN_6
+CT_525,Tangail,CN_12
+CT_526,Tanshui,CN_92
+CT_527,Tanza,CN_75
+CT_528,Tarlac,CN_75
+CT_529,Tarsus,CN_97
+CT_53,Bandar Seri Begawan,CN_16
+CT_530,Tartu,CN_30
+CT_531,Teboksary,CN_80
+CT_532,Tegal,CN_45
+CT_533,Tel Aviv-Jaffa,CN_48
+CT_534,Tete,CN_63
+CT_535,Tianjin,CN_23
+CT_536,Tiefa,CN_23
+CT_537,Tieli,CN_23
+CT_538,Tokat,CN_97
+CT_539,Tonghae,CN_86
+CT_54,Banjul,CN_37
+CT_540,Tongliao,CN_23
+CT_541,Torren,CN_60
+CT_542,Touliu,CN_92
+CT_543,Toulon,CN_34
+CT_544,Toulouse,CN_34
+CT_545,Trshavn,CN_32
+CT_546,Tsaotun,CN_92
+CT_547,Tsuyama,CN_50
+CT_548,Tuguegarao,CN_75
+CT_549,Tychy,CN_76
+CT_55,Barcelona,CN_104
+CT_550,Udaipur,CN_44
+CT_551,Udine,CN_49
+CT_552,Ueda,CN_50
+CT_553,Uijongbu,CN_86
+CT_554,Uluberia,CN_44
+CT_555,Urawa,CN_50
+CT_556,Uruapan,CN_60
+CT_557,Usak,CN_97
+CT_558,Usolje-Sibirskoje,CN_80
+CT_559,Uttarpara-Kotrung,CN_44
+CT_56,Basel,CN_91
+CT_560,Vaduz,CN_55
+CT_561,Valencia,CN_104
+CT_562,Valle de la Pascua,CN_104
+CT_563,Valle de Santiago,CN_60
+CT_564,Valparai,CN_44
+CT_565,Vancouver,CN_20
+CT_566,Varanasi,CN_44
+CT_567,Vicente Lpez,CN_6
+CT_568,Vijayawada,CN_44
+CT_569,Vila Velha,CN_15
+CT_57,Bat Yam,CN_48
+CT_570,Vilnius,CN_56
+CT_571,Vinh,CN_105
+CT_572,Vitria de Santo Anto,CN_15
+CT_573,Warren,CN_103
+CT_574,Weifang,CN_23
+CT_575,Witten,CN_38
+CT_576,Woodridge,CN_8
+CT_577,Wroclaw,CN_76
+CT_578,Xiangfan,CN_23
+CT_579,Xiangtan,CN_23
+CT_58,Batman,CN_97
+CT_580,Xintai,CN_23
+CT_581,Xinxiang,CN_23
+CT_582,Yamuna Nagar,CN_44
+CT_583,Yangor,CN_65
+CT_584,Yantai,CN_23
+CT_585,Yaound,CN_19
+CT_586,Yerevan,CN_7
+CT_587,Yinchuan,CN_23
+CT_588,Yingkou,CN_23
+CT_589,York,CN_102
+CT_59,Batna,CN_2
+CT_590,Yuncheng,CN_23
+CT_591,Yuzhou,CN_23
+CT_592,Zalantun,CN_23
+CT_593,Zanzibar,CN_93
+CT_594,Zaoyang,CN_23
+CT_595,Zapopan,CN_60
+CT_596,Zaria,CN_69
+CT_597,Zeleznogorsk,CN_80
+CT_598,Zhezqazghan,CN_51
+CT_599,Zhoushan,CN_23
+CT_6,Addis Abeba,CN_31
+CT_60,Battambang,CN_18
+CT_600,Ziguinchor,CN_83
+CT_61,Baybay,CN_75
+CT_62,Bayugan,CN_75
+CT_63,Bchar,CN_2
+CT_64,Beira,CN_63
+CT_65,Bellevue,CN_103
+CT_66,Belm,CN_15
+CT_67,Benguela,CN_4
+CT_68,Beni-Mellal,CN_62
+CT_69,Benin City,CN_69
+CT_7,Aden,CN_107
+CT_70,Bergamo,CN_49
+CT_71,Berhampore,CN_44
+CT_72,Bern,CN_91
+CT_73,Bhavnagar,CN_44
+CT_74,Bhilwara,CN_44
+CT_75,Bhimavaram,CN_44
+CT_76,Bhopal,CN_44
+CT_77,Bhusawal,CN_44
+CT_78,Bijapur,CN_44
+CT_79,Bilbays,CN_29
+CT_8,Adoni,CN_44
+CT_80,Binzhou,CN_23
+CT_81,Birgunj,CN_66
+CT_82,Bislig,CN_75
+CT_83,Blumenau,CN_15
+CT_84,Boa Vista,CN_15
+CT_85,Boksburg,CN_85
+CT_86,Botosani,CN_78
+CT_87,Botshabelo,CN_85
+CT_88,Bradford,CN_102
+CT_89,Braslia,CN_15
+CT_9,Ahmadnagar,CN_44
+CT_90,Bratislava,CN_84
+CT_91,Brescia,CN_49
+CT_92,Brest,CN_34
+CT_93,Brindisi,CN_49
+CT_94,Brockton,CN_103
+CT_95,Bucuresti,CN_78
+CT_96,Buenaventura,CN_24
+CT_97,Bydgoszcz,CN_76
+CT_98,Cabuyao,CN_75
+CT_99,Callao,CN_74

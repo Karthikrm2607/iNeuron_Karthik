@@ -1,0 +1,7 @@
+CMP_ID,SID,REGARDING,DESCR,STATUS,STAFF_ID,SYS_CRE_DATE,SYS_UPD_DATE
+11118,47,Recharge,Recharge Related Query,Closed,10004,2021-01-01,2021-01-01
+11119,21,Recharge,Recharge Related Query,Closed,10005,2021-01-01,2021-01-01
+11120,300,Balance,Balance related Query,Closed,10005,2021-01-01,2021-01-01
+222222,111,Billing,Billing related query,Open,10001,2021-06-01,2021-06-01
+222222,112,Billing,Billing related query,Open,10001,2021-06-01,2021-06-01
+222222,112,Port,I want to port,Open,10001,2021-06-01,2021-06-01
