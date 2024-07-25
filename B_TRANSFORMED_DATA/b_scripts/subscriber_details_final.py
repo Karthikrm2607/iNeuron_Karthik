@@ -173,6 +173,11 @@ def write_subscriber_details(df, subscriber_details_save_path, subscriber_detail
         .option("header","true")\
         .save(f"{subscriber_details_save_path}/{subscriber_details_file_name}.csv")
 
+def heighest_amt(df,amt_column):
+    df1 = df.agg(max(col(amt_column)).alias("maximum_amt"))
+    max_amt = df1.collect()[0][0]
+    return max_amt
+
 
 def main():
     spark = spark_session()
@@ -241,8 +246,8 @@ def main():
                             subscriber_details_path,
                             subscriber_details_file)
     
-    logger.info(f"File written successfully {subscriber_details_file}")
-
+    max_amt_paid_by_customer = heighest_amt(union_of_subscriber_details_file, "prepaid_plan_amount")
+    print(max_amt_paid_by_customer)
     spark.stop()
 
 if __name__ == "__main__":
