@@ -14,6 +14,7 @@ def spark_session():
     spark = SparkSession.builder.appName("sql_to_raw_s3")\
                     .master("local[*]")\
                     .getOrCreate()
+                    
     return spark
     
 def read_raw_file(spark, raw_file_path, file_name):
@@ -181,6 +182,7 @@ def heighest_amt(df,amt_column):
 
 def main():
     spark = spark_session()
+    spark.sparkContext.setLogLevel("ERROR")
     config_file_path = "E:\\0_BIG DATA\\PROJECTS\\iNeuron_Karthik\\B_TRANSFORMED_DATA\\b_scripts\\transform_config.json"
     config_file_object = read_json(config_file_path)
 
