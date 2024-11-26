@@ -1,0 +1,11 @@
+complaint_id,subscriber_id,complaint_regarding,complaint_description,complaint_status,staff_id,complaint_sys_cre_date,complaint_sys_upd_date
+11111,1,Balance,Balance related Query,Open,10001,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11112,101,Balance,Balance related Query,Closed,10001,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11113,112,Recharge,Recharge Related Query,Checking,10002,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11114,23,Recharge,Recharge Related Query,Open,10002,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11115,11,Balance,Balance related Query,Closed,10003,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11116,45,Recharge,Recharge Related Query,Checking,10003,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11117,11,Balance,Balance related Query,Closed,10004,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11118,47,Recharge,Recharge Related Query,Open,10004,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11119,21,Recharge,Recharge Related Query,Open,10005,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30
+11120,300,Balance,Balance related Query,Open,10005,2021-01-01T00:00:00.000+05:30,2021-01-01T00:00:00.000+05:30

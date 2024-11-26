@@ -1,0 +1,19 @@
+{
+    "sql_host" : "jdbc:mysql://127.0.0.1:3306/prod",
+    "sql_user" : "root",
+    "sql_password" : "RMk@260795",
+    "sql_driver" : "com.mysql.cj.jdbc.Driver",
+    "sql_dbase" : {
+        "database" : "prod",
+        "db_table" : ["COUNTRY",
+                        "CITY",
+                        "ADDRESS",
+                        "STAFF",
+                        "POSTPAID_PLAN",
+                        "PREPAID_PLAN",
+                        "COMPLAINT",
+                        "SUBSCRIBER"]
+                    },
+    "sql_jar_path" : "E:\\0_BIG DATA\\EDWA_PROJECT\\A_RAW_DATA\\A_HISTORICAL_DATA\\b_sql_script\\dep\\mysql-connector-j-8.2.0.jar",
+    "write_path" : "E:\\0_BIG DATA\\EDWA_PROJECT\\A_RAW_DATA\\A_HISTORICAL_DATA\\a_data\\"
+}

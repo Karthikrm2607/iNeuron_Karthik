@@ -1,0 +1,6 @@
+postpaid_plan_id,postpaid_plan_description,postpaid_plan_amount
+PO_1,unlimited call 40 GB 100 SMS,199
+PO_2,unlimited call 75 GB,299
+PO_3,unlimited call 100GB,399
+PO_4,unlimited call 150 GB   1000 SMS,499
+PO_5,unlimited call 200 GB  100 SMS,749

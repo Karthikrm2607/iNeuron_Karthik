@@ -1,0 +1,226 @@
+ps: unknown option -- o
+Try `ps --help' for more information.
+24/07/26 12:00:50 INFO SparkContext: Running Spark version 3.5.0
+24/07/26 12:00:50 INFO SparkContext: OS info Windows 11, 10.0, amd64
+24/07/26 12:00:50 INFO SparkContext: Java version 21.0.1
+24/07/26 12:00:50 INFO ResourceUtils: ==============================================================
+24/07/26 12:00:50 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/07/26 12:00:50 INFO ResourceUtils: ==============================================================
+24/07/26 12:00:50 INFO SparkContext: Submitted application: sql_to_raw_s3
+24/07/26 12:00:50 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/07/26 12:00:50 INFO ResourceProfile: Limiting resource is cpu
+24/07/26 12:00:50 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/07/26 12:00:51 INFO SecurityManager: Changing view acls to: Windows
+24/07/26 12:00:51 INFO SecurityManager: Changing modify acls to: Windows
+24/07/26 12:00:51 INFO SecurityManager: Changing view acls groups to: 
+24/07/26 12:00:51 INFO SecurityManager: Changing modify acls groups to: 
+24/07/26 12:00:51 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Windows; groups with view permissions: EMPTY; users with modify permissions: Windows; groups with modify permissions: EMPTY
+24/07/26 12:00:51 INFO Utils: Successfully started service 'sparkDriver' on port 57208.
+24/07/26 12:00:51 INFO SparkEnv: Registering MapOutputTracker
+24/07/26 12:00:51 INFO SparkEnv: Registering BlockManagerMaster
+24/07/26 12:00:51 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/07/26 12:00:51 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/07/26 12:00:51 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/07/26 12:00:52 INFO DiskBlockManager: Created local directory at C:\Users\Windows\AppData\Local\Temp\blockmgr-f0c6b4a8-238a-4652-82d3-218c3d8f6d14
+24/07/26 12:00:52 INFO MemoryStore: MemoryStore started with capacity 127.2 MiB
+24/07/26 12:00:52 INFO SparkEnv: Registering OutputCommitCoordinator
+24/07/26 12:00:52 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+24/07/26 12:00:53 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/07/26 12:00:53 INFO SparkContext: Added file file:///E:/0_BIG%20DATA/PROJECTS/iNeuron_Karthik/B_TRANSFORMED_DATA/b_scripts/transform_config.json at file:///E:/0_BIG%20DATA/PROJECTS/iNeuron_Karthik/B_TRANSFORMED_DATA/b_scripts/transform_config.json with timestamp 1721975450735
+24/07/26 12:00:53 INFO Utils: Copying E:\0_BIG DATA\PROJECTS\iNeuron_Karthik\B_TRANSFORMED_DATA\b_scripts\transform_config.json to C:\Users\Windows\AppData\Local\Temp\spark-7cbbe8c2-fae8-47a3-bee6-b09e21f60cef\userFiles-f606ffc5-ab97-4b7b-9418-3376eda8a7e7\transform_config.json
+24/07/26 12:00:53 INFO Executor: Starting executor ID driver on host host.docker.internal
+24/07/26 12:00:53 INFO Executor: OS info Windows 11, 10.0, amd64
+24/07/26 12:00:53 INFO Executor: Java version 21.0.1
+24/07/26 12:00:53 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/07/26 12:00:53 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@360e3f02 for default.
+24/07/26 12:00:53 INFO Executor: Fetching file:///E:/0_BIG%20DATA/PROJECTS/iNeuron_Karthik/B_TRANSFORMED_DATA/b_scripts/transform_config.json with timestamp 1721975450735
+24/07/26 12:00:53 INFO Utils: E:\0_BIG DATA\PROJECTS\iNeuron_Karthik\B_TRANSFORMED_DATA\b_scripts\transform_config.json has been previously copied to C:\Users\Windows\AppData\Local\Temp\spark-7cbbe8c2-fae8-47a3-bee6-b09e21f60cef\userFiles-f606ffc5-ab97-4b7b-9418-3376eda8a7e7\transform_config.json
+24/07/26 12:00:54 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 57210.
+24/07/26 12:00:54 INFO NettyBlockTransferService: Server created on host.docker.internal:57210
+24/07/26 12:00:54 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/07/26 12:00:54 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, host.docker.internal, 57210, None)
+24/07/26 12:00:54 INFO BlockManagerMasterEndpoint: Registering block manager host.docker.internal:57210 with 127.2 MiB RAM, BlockManagerId(driver, host.docker.internal, 57210, None)
+24/07/26 12:00:54 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, host.docker.internal, 57210, None)
+24/07/26 12:00:54 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, host.docker.internal, 57210, None)
+
+ ######################printing (subscriber_details_df)###################################
+
++-------------+------------------+------------+--------------------+--------------------+-----------------+--------------------+-------------------+-------------------+-----------+------------------------+-------------------+-------------------------+--------------------+
+|subscriber_id|   subscriber_name|Phone_Number|    subscriber_email|             address|             city|             country|       created_date|        update_date|Active_flag|prepaid_plan_description|prepaid_plan_amount|postpaid_plan_description|postpaid_plan_amount|
++-------------+------------------+------------+--------------------+--------------------+-----------------+--------------------+-------------------+-------------------+-----------+------------------------+-------------------+-------------------------+--------------------+
+|            1|        MARY SMITH|       54321|MARY.SMITH@sakila...|      1913 Hanoi Way|           Sasebo|               Japan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|
+|            2|  PATRICIA JOHNSON|       54322|PATRICIA.JOHNSON@...|    1121 Loja Avenue|   San Bernardino|       United States|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|
+|            3|    LINDA WILLIAMS|       54323|LINDA.WILLIAMS@sa...|   692 Joliet Street|          Athenai|              Greece|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|
+|            4|     BARBARA JONES|       54324|BARBARA.JONES@sak...|    1566 Inegl Manor|         Myingyan|             Myanmar|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|
+|            5|   ELIZABETH BROWN|       54325|ELIZABETH.BROWN@s...|     53 Idfu Parkway|           Nantou|              Taiwan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|
+|            6|    JENNIFER DAVIS|       54326|JENNIFER.DAVIS@sa...|1795 Santiago de ...|           Laredo|       United States|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|
+|            7|      MARIA MILLER|       54327|MARIA.MILLER@saki...|900 Santiago de C...|       Kragujevac|          Yugoslavia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|
+|            8|      SUSAN WILSON|       54328|SUSAN.WILSON@saki...|      478 Joliet Way|         Hamilton|         New Zealand|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|
+|            9|    MARGARET MOORE|       54329|MARGARET.MOORE@sa...|   613 Korolev Drive|           Masqat|                Oman|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|
+|           10|    DOROTHY TAYLOR|       54330|DOROTHY.TAYLOR@sa...|      1531 Sal Drive|          Esfahan|                Iran|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|
+|           11|     LISA ANDERSON|       54331|LISA.ANDERSON@sak...| 1542 Tarlac Parkway|       Sagamihara|               Japan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           12|      NANCY THOMAS|       54332|NANCY.THOMAS@saki...|    808 Bhopal Manor|     Yamuna Nagar|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           13|     KAREN JACKSON|       54333|KAREN.JACKSON@sak...|  270 Amroha Parkway|         Osmaniye|              Turkey|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|
+|           14|       BETTY WHITE|       54334|BETTY.WHITE@sakil...|770 Bydgoszcz Avenue|   Citrus Heights|       United States|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|
+|           15|      HELEN HARRIS|       54335|HELEN.HARRIS@saki...|     419 Iligan Lane|           Bhopal|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|
+|           16|     SANDRA MARTIN|       54336|SANDRA.MARTIN@sak...|360 Toulouse Parkway|  Southend-on-Sea|      United Kingdom|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|
+|           17|    DONNA THOMPSON|       54337|DONNA.THOMPSON@sa...|270 Toulon Boulevard|           Elista|  Russian Federation|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|
+|           18|      CAROL GARCIA|       54338|CAROL.GARCIA@saki...|    320 Brest Avenue|           Kaduna|             Nigeria|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|
+|           19|     RUTH MARTINEZ|       54339|RUTH.MARTINEZ@sak...|1417 Lancaster Av...|        Kimberley|        South Africa|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|
+|           20|   SHARON ROBINSON|       54340|SHARON.ROBINSON@s...|      1688 Okara Way|           Mardan|            Pakistan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|
+|           21|    MICHELLE CLARK|       54341|MICHELLE.CLARK@sa...|262 A Corua  Parkway|          Tangail|          Bangladesh|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|
+|           22|   LAURA RODRIGUEZ|       54342|LAURA.RODRIGUEZ@s...|28 Charlotte Amal...|              Sal|             Morocco|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|
+|           23|       SARAH LEWIS|       54343|SARAH.LEWIS@sakil...| 1780 Hino Boulevard|          Liepaja|              Latvia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           24|      KIMBERLY LEE|       54344|KIMBERLY.LEE@saki...|       96 Tafuna Way|           Crdoba|           Argentina|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           25|    DEBORAH WALKER|       54345|DEBORAH.WALKER@sa...|934 San Felipe de...|        Shikarpur|            Pakistan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|
+|           26|      JESSICA HALL|       54346|JESSICA.HALL@saki...|18 Duisburg Boule...|Citt del Vaticano|Holy See (Vatican...|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|
+|           27|     SHIRLEY ALLEN|       54347|SHIRLEY.ALLEN@sak...|217 Botshabelo Place|            Davao|         Philippines|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|
+|           28|     CYNTHIA YOUNG|       54348|CYNTHIA.YOUNG@sak...|1425 Shikarpur Manor|           Munger|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|
+|           29|  ANGELA HERNANDEZ|       54349|ANGELA.HERNANDEZ@...|   786 Aurora Avenue|      Shimonoseki|               Japan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|
+|           30|      MELISSA KING|       54350|MELISSA.KING@saki...| 1668 Anpolis Street|          Lungtan|              Taiwan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|
+|           31|     BRENDA WRIGHT|       54351|BRENDA.WRIGHT@sak...|    33 Gorontalo Way|        Kamarhati|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|
+|           32|         AMY LOPEZ|       54352|AMY.LOPEZ@sakilac...|176 Mandaluyong P...|           Jhansi|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|
+|           33|         ANNA HILL|       54353|ANNA.HILL@sakilac...|   127 Purnea  Manor|      Alessandria|               Italy|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|
+|           34|     REBECCA SCOTT|       54354|REBECCA.SCOTT@sak...|      61 Tama Street|        Kurashiki|               Japan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|
+|           35|    VIRGINIA GREEN|       54355|VIRGINIA.GREEN@sa...|    391 Callao Drive|         Toulouse|              France|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           36|    KATHLEEN ADAMS|       54356|KATHLEEN.ADAMS@sa...|    334 Munger  Lane|             Arak|                Iran|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           37|      PAMELA BAKER|       54357|PAMELA.BAKER@saki...|  1440 Fukuyama Loop|          Nanyang|               China|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|
+|           38|   MARTHA GONZALEZ|       54358|MARTHA.GONZALEZ@s...|269 Cam Ranh Parkway|         Chisinau|             Moldova|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|
+|           39|      DEBRA NELSON|       54359|DEBRA.NELSON@saki...|306 Antofagasta P...|       Vila Velha|              Brazil|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|
+|           40|     AMANDA CARTER|       54360|AMANDA.CARTER@sak...|     671 Graz Street|            Nador|             Morocco|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|
+|           41|STEPHANIE MITCHELL|       54361|STEPHANIE.MITCHEL...|   42 Brindisi Place|          Yerevan|             Armenia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|
+|           42|     CAROLYN PEREZ|       54362|CAROLYN.PEREZ@sak...|  1632 Bislig Avenue|         Pak Kret|            Thailand|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|
+|           43| CHRISTINE ROBERTS|       54363|CHRISTINE.ROBERTS...|       1447 Imus Way|             Faaa|    French Polynesia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|
+|           44|      MARIE TURNER|       54364|MARIE.TURNER@saki...|  1998 Halifax Drive|          Lipetsk|  Russian Federation|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|
+|           45|    JANET PHILLIPS|       54365|JANET.PHILLIPS@sa...|1718 Valencia Street|      Antofagasta|               Chile|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|
+|           46|CATHERINE CAMPBELL|       54366|CATHERINE.CAMPBEL...|  46 Pjatigorsk Lane|           Moscow|  Russian Federation|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|
+|           47|    FRANCES PARKER|       54367|FRANCES.PARKER@sa...|   686 Garland Manor|Juazeiro do Norte|              Brazil|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           48|         ANN EVANS|       54368|ANN.EVANS@sakilac...|   909 Garland Manor|       Niznekamsk|  Russian Federation|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           49|     JOYCE EDWARDS|       54369|JOYCE.EDWARDS@sak...|   725 Isesaki Place|            Jedda|        Saudi Arabia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|
+|           50|     DIANE COLLINS|       54370|DIANE.COLLINS@sak...| 115 Hidalgo Parkway|         Omdurman|               Sudan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|
+|           51|     ALICE STEWART|       54371|ALICE.STEWART@sak...|1135 Izumisano Pa...|          Fontana|       United States|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|
+|           52|     JULIE SANCHEZ|       54372|JULIE.SANCHEZ@sak...|939 Probolinggo Loop|          A Corua|               Spain|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|
+|           53|    HEATHER MORRIS|       54373|HEATHER.MORRIS@sa...|  17 Kabul Boulevard|       Nagareyama|               Japan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|
+|           54|     TERESA ROGERS|       54374|TERESA.ROGERS@sak...|1964 Allappuzha S...|          Iwakuni|               Japan|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|
+|           55|        DORIS REED|       54375|DORIS.REED@sakila...|1697 Kowloon and ...|          Balaiha|  Russian Federation|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|
+|           56|       GLORIA COOK|       54376|GLORIA.COOK@sakil...|1668 Saint Louis ...|          Papeete|    French Polynesia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|
+|           57|     EVELYN MORGAN|       54377|EVELYN.MORGAN@sak...|    943 Tokat Street|            Vaduz|       Liechtenstein|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|
+|           58|         JEAN BELL|       54378|JEAN.BELL@sakilac...| 1114 Liepaja Street|          Kuching|            Malaysia|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|
+|           59|     CHERYL MURPHY|       54379|CHERYL.MURPHY@sak...| 1213 Ranchi Parkway|           Mysore|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
+|           60|    MILDRED BAILEY|       54380|MILDRED.BAILEY@sa...|      81 Hodeida Way|           Jaipur|               India|2021-01-01 00:00:00|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|
++-------------+------------------+------------+--------------------+--------------------+-----------------+--------------------+-------------------+-------------------+-----------+------------------------+-------------------+-------------------------+--------------------+
+only showing top 60 rows
+
+
+ ######################printing (delta_subscriber_details1)###################################
+
++-------------+---------------+------------+----------------+-------+----+-------+------------+-----------+-----------+------------------------+-------------------+-------------------------+--------------------+
+|subscriber_id|subscriber_name|Phone_Number|subscriber_email|address|city|country|created_date|update_date|Active_flag|prepaid_plan_description|prepaid_plan_amount|postpaid_plan_description|postpaid_plan_amount|
++-------------+---------------+------------+----------------+-------+----+-------+------------+-----------+-----------+------------------------+-------------------+-------------------------+--------------------+
++-------------+---------------+------------+----------------+-------+----+-------+------------+-----------+-----------+------------------------+-------------------+-------------------------+--------------------+
+
+
+ ######################printing (union_of_subscriber_details_file)###################################
+
++-------------+------------------+------------+--------------------+--------------------+-----------------+--------------------+-------------------+-----------+------------------------+-------------------+-------------------------+--------------------+-------------------+
+|subscriber_id|   subscriber_name|Phone_Number|    subscriber_email|             address|             city|             country|       created_date|Active_flag|prepaid_plan_description|prepaid_plan_amount|postpaid_plan_description|postpaid_plan_amount|        update_date|
++-------------+------------------+------------+--------------------+--------------------+-----------------+--------------------+-------------------+-----------+------------------------+-------------------+-------------------------+--------------------+-------------------+
+|            1|        MARY SMITH|       54321|MARY.SMITH@sakila...|      1913 Hanoi Way|           Sasebo|               Japan|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|2021-01-01 00:00:00|
+|            2|  PATRICIA JOHNSON|       54322|PATRICIA.JOHNSON@...|    1121 Loja Avenue|   San Bernardino|       United States|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|2021-01-01 00:00:00|
+|            3|    LINDA WILLIAMS|       54323|LINDA.WILLIAMS@sa...|   692 Joliet Street|          Athenai|              Greece|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|2021-01-01 00:00:00|
+|            4|     BARBARA JONES|       54324|BARBARA.JONES@sak...|    1566 Inegl Manor|         Myingyan|             Myanmar|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|2021-01-01 00:00:00|
+|            5|   ELIZABETH BROWN|       54325|ELIZABETH.BROWN@s...|     53 Idfu Parkway|           Nantou|              Taiwan|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|2021-01-01 00:00:00|
+|            6|    JENNIFER DAVIS|       54326|JENNIFER.DAVIS@sa...|1795 Santiago de ...|           Laredo|       United States|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|2021-01-01 00:00:00|
+|            7|      MARIA MILLER|       54327|MARIA.MILLER@saki...|900 Santiago de C...|       Kragujevac|          Yugoslavia|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|2021-01-01 00:00:00|
+|            8|      SUSAN WILSON|       54328|SUSAN.WILSON@saki...|      478 Joliet Way|         Hamilton|         New Zealand|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|2021-01-01 00:00:00|
+|            9|    MARGARET MOORE|       54329|MARGARET.MOORE@sa...|   613 Korolev Drive|           Masqat|                Oman|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|2021-01-01 00:00:00|
+|           10|    DOROTHY TAYLOR|       54330|DOROTHY.TAYLOR@sa...|      1531 Sal Drive|          Esfahan|                Iran|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|2021-01-01 00:00:00|
+|           11|     LISA ANDERSON|       54331|LISA.ANDERSON@sak...| 1542 Tarlac Parkway|       Sagamihara|               Japan|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           12|      NANCY THOMAS|       54332|NANCY.THOMAS@saki...|    808 Bhopal Manor|     Yamuna Nagar|               India|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           13|     KAREN JACKSON|       54333|KAREN.JACKSON@sak...|  270 Amroha Parkway|         Osmaniye|              Turkey|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|2021-01-01 00:00:00|
+|           14|       BETTY WHITE|       54334|BETTY.WHITE@sakil...|770 Bydgoszcz Avenue|   Citrus Heights|       United States|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|2021-01-01 00:00:00|
+|           15|      HELEN HARRIS|       54335|HELEN.HARRIS@saki...|     419 Iligan Lane|           Bhopal|               India|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|2021-01-01 00:00:00|
+|           16|     SANDRA MARTIN|       54336|SANDRA.MARTIN@sak...|360 Toulouse Parkway|  Southend-on-Sea|      United Kingdom|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|2021-01-01 00:00:00|
+|           17|    DONNA THOMPSON|       54337|DONNA.THOMPSON@sa...|270 Toulon Boulevard|           Elista|  Russian Federation|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|2021-01-01 00:00:00|
+|           18|      CAROL GARCIA|       54338|CAROL.GARCIA@saki...|    320 Brest Avenue|           Kaduna|             Nigeria|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|2021-01-01 00:00:00|
+|           19|     RUTH MARTINEZ|       54339|RUTH.MARTINEZ@sak...|1417 Lancaster Av...|        Kimberley|        South Africa|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|2021-01-01 00:00:00|
+|           20|   SHARON ROBINSON|       54340|SHARON.ROBINSON@s...|      1688 Okara Way|           Mardan|            Pakistan|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|2021-01-01 00:00:00|
+|           21|    MICHELLE CLARK|       54341|MICHELLE.CLARK@sa...|262 A Corua  Parkway|          Tangail|          Bangladesh|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|2021-01-01 00:00:00|
+|           22|   LAURA RODRIGUEZ|       54342|LAURA.RODRIGUEZ@s...|28 Charlotte Amal...|              Sal|             Morocco|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|2021-01-01 00:00:00|
+|           23|       SARAH LEWIS|       54343|SARAH.LEWIS@sakil...| 1780 Hino Boulevard|          Liepaja|              Latvia|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           24|      KIMBERLY LEE|       54344|KIMBERLY.LEE@saki...|       96 Tafuna Way|           Crdoba|           Argentina|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           25|    DEBORAH WALKER|       54345|DEBORAH.WALKER@sa...|934 San Felipe de...|        Shikarpur|            Pakistan|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|2021-01-01 00:00:00|
+|           26|      JESSICA HALL|       54346|JESSICA.HALL@saki...|18 Duisburg Boule...|Citt del Vaticano|Holy See (Vatican...|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|2021-01-01 00:00:00|
+|           27|     SHIRLEY ALLEN|       54347|SHIRLEY.ALLEN@sak...|217 Botshabelo Place|            Davao|         Philippines|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|2021-01-01 00:00:00|
+|           28|     CYNTHIA YOUNG|       54348|CYNTHIA.YOUNG@sak...|1425 Shikarpur Manor|           Munger|               India|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|2021-01-01 00:00:00|
+|           29|  ANGELA HERNANDEZ|       54349|ANGELA.HERNANDEZ@...|   786 Aurora Avenue|      Shimonoseki|               Japan|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|2021-01-01 00:00:00|
+|           30|      MELISSA KING|       54350|MELISSA.KING@saki...| 1668 Anpolis Street|          Lungtan|              Taiwan|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|2021-01-01 00:00:00|
+|           31|     BRENDA WRIGHT|       54351|BRENDA.WRIGHT@sak...|    33 Gorontalo Way|        Kamarhati|               India|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|2021-01-01 00:00:00|
+|           32|         AMY LOPEZ|       54352|AMY.LOPEZ@sakilac...|176 Mandaluyong P...|           Jhansi|               India|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|2021-01-01 00:00:00|
+|           33|         ANNA HILL|       54353|ANNA.HILL@sakilac...|   127 Purnea  Manor|      Alessandria|               Italy|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|2021-01-01 00:00:00|
+|           34|     REBECCA SCOTT|       54354|REBECCA.SCOTT@sak...|      61 Tama Street|        Kurashiki|               Japan|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|2021-01-01 00:00:00|
+|           35|    VIRGINIA GREEN|       54355|VIRGINIA.GREEN@sa...|    391 Callao Drive|         Toulouse|              France|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           36|    KATHLEEN ADAMS|       54356|KATHLEEN.ADAMS@sa...|    334 Munger  Lane|             Arak|                Iran|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           37|      PAMELA BAKER|       54357|PAMELA.BAKER@saki...|  1440 Fukuyama Loop|          Nanyang|               China|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|2021-01-01 00:00:00|
+|           38|   MARTHA GONZALEZ|       54358|MARTHA.GONZALEZ@s...|269 Cam Ranh Parkway|         Chisinau|             Moldova|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|2021-01-01 00:00:00|
+|           39|      DEBRA NELSON|       54359|DEBRA.NELSON@saki...|306 Antofagasta P...|       Vila Velha|              Brazil|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|2021-01-01 00:00:00|
+|           40|     AMANDA CARTER|       54360|AMANDA.CARTER@sak...|     671 Graz Street|            Nador|             Morocco|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|2021-01-01 00:00:00|
+|           41|STEPHANIE MITCHELL|       54361|STEPHANIE.MITCHEL...|   42 Brindisi Place|          Yerevan|             Armenia|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|2021-01-01 00:00:00|
+|           42|     CAROLYN PEREZ|       54362|CAROLYN.PEREZ@sak...|  1632 Bislig Avenue|         Pak Kret|            Thailand|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|2021-01-01 00:00:00|
+|           43| CHRISTINE ROBERTS|       54363|CHRISTINE.ROBERTS...|       1447 Imus Way|             Faaa|    French Polynesia|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|2021-01-01 00:00:00|
+|           44|      MARIE TURNER|       54364|MARIE.TURNER@saki...|  1998 Halifax Drive|          Lipetsk|  Russian Federation|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|2021-01-01 00:00:00|
+|           45|    JANET PHILLIPS|       54365|JANET.PHILLIPS@sa...|1718 Valencia Street|      Antofagasta|               Chile|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|2021-01-01 00:00:00|
+|           46|CATHERINE CAMPBELL|       54366|CATHERINE.CAMPBEL...|  46 Pjatigorsk Lane|           Moscow|  Russian Federation|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|2021-01-01 00:00:00|
+|           47|    FRANCES PARKER|       54367|FRANCES.PARKER@sa...|   686 Garland Manor|Juazeiro do Norte|              Brazil|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           48|         ANN EVANS|       54368|ANN.EVANS@sakilac...|   909 Garland Manor|       Niznekamsk|  Russian Federation|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           49|     JOYCE EDWARDS|       54369|JOYCE.EDWARDS@sak...|   725 Isesaki Place|            Jedda|        Saudi Arabia|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 40...|                 199|2021-01-01 00:00:00|
+|           50|     DIANE COLLINS|       54370|DIANE.COLLINS@sak...| 115 Hidalgo Parkway|         Omdurman|               Sudan|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 75 GB|                 299|2021-01-01 00:00:00|
+|           51|     ALICE STEWART|       54371|ALICE.STEWART@sak...|1135 Izumisano Pa...|          Fontana|       United States|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 100GB|                 399|2021-01-01 00:00:00|
+|           52|     JULIE SANCHEZ|       54372|JULIE.SANCHEZ@sak...|939 Probolinggo Loop|          A Corua|               Spain|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 15...|                 499|2021-01-01 00:00:00|
+|           53|    HEATHER MORRIS|       54373|HEATHER.MORRIS@sa...|  17 Kabul Boulevard|       Nagareyama|               Japan|2021-01-01 00:00:00|          A|                    NULL|               NULL|     unlimited call 20...|                 749|2021-01-01 00:00:00|
+|           54|     TERESA ROGERS|       54374|TERESA.ROGERS@sak...|1964 Allappuzha S...|          Iwakuni|               Japan|2021-01-01 00:00:00|          A|    unlimited call 1....|                199|                     NULL|                NULL|2021-01-01 00:00:00|
+|           55|        DORIS REED|       54375|DORIS.REED@sakila...|1697 Kowloon and ...|          Balaiha|  Russian Federation|2021-01-01 00:00:00|          A|    unlimited call 2G...|                299|                     NULL|                NULL|2021-01-01 00:00:00|
+|           56|       GLORIA COOK|       54376|GLORIA.COOK@sakil...|1668 Saint Louis ...|          Papeete|    French Polynesia|2021-01-01 00:00:00|          A|    unlimited call 1....|                399|                     NULL|                NULL|2021-01-01 00:00:00|
+|           57|     EVELYN MORGAN|       54377|EVELYN.MORGAN@sak...|    943 Tokat Street|            Vaduz|       Liechtenstein|2021-01-01 00:00:00|          A|    unlimited call 3G...|                499|                     NULL|                NULL|2021-01-01 00:00:00|
+|           58|         JEAN BELL|       54378|JEAN.BELL@sakilac...| 1114 Liepaja Street|          Kuching|            Malaysia|2021-01-01 00:00:00|          A|    unlimited call 4G...|                749|                     NULL|                NULL|2021-01-01 00:00:00|
+|           59|     CHERYL MURPHY|       54379|CHERYL.MURPHY@sak...| 1213 Ranchi Parkway|           Mysore|               India|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
+|           60|    MILDRED BAILEY|       54380|MILDRED.BAILEY@sa...|      81 Hodeida Way|           Jaipur|               India|2021-01-01 00:00:00|          A|                    NULL|               NULL|                     NULL|                NULL|2021-01-01 00:00:00|
++-------------+------------------+------------+--------------------+--------------------+-----------------+--------------------+-------------------+-----------+------------------------+-------------------+-------------------------+--------------------+-------------------+
+only showing top 60 rows
+
+749
+24/07/26 12:01:30 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\Windows\AppData\Local\Temp\spark-7cbbe8c2-fae8-47a3-bee6-b09e21f60cef\pyspark-3dc45292-80f2-4355-a257-f3ba496691e3
+java.nio.file.NoSuchFileException: C:\Users\Windows\AppData\Local\Temp\spark-7cbbe8c2-fae8-47a3-bee6-b09e21f60cef\pyspark-3dc45292-80f2-4355-a257-f3ba496691e3
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:117)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:90)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1126)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
